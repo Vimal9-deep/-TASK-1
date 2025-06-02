@@ -1,12 +1,13 @@
 # -TASK-1
 
-This is my first task assigned by my intructor of internship.
-<b>Inside this task I had performed the implementation for Data Cleaning and Preprocessing on a raw data</b>
-Dataset used =[text](netflix_titles.csv)
+<br>This is my first task assigned by my intructor of internship.</br>
+<br><b>Inside this task I had performed the implementation for Data Cleaning and Preprocessing on a raw data</b>
+</br>
+<br>Dataset used =[DATASET](netflix_titles.csv)</br>
 
-This dataset contains lots of information regarding Netflix and T.V shows
-I had manipulate data and had performed some changement with the help of PANDAS tools of PYTHON
-<b>Some highlighted changes:-</b>
+<br>This dataset contains lots of information regarding Netflix and T.V shows</br>
+<br>I had manipulate data and had performed some changement with the help of PANDAS tools of PYTHON</br>
+<br><b>Some highlighted changes:-</b></br>
 1.) Identifying and handle missing values using "df.isnull(),fillna()"
 2.) Removing duplicate rows using "df.drop_duplicates() ,df.duplicated()"
 3.) Standardize text values like country names, etc. "df.str.upper()"
