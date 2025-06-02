@@ -31,11 +31,11 @@ print(netflix['country'])
 netflix['date_added'] = pd.to_datetime(netflix['date_added'], dayfirst=True, errors='coerce')  # 'dayfirst=True' for dd-mm-yyyy
 print(netflix['date_added'].head()) #checking the preview
 
-# Clean column names: lowercase, remove spaces
+# Clean column names: uppercase, remove spaces
 netflix.columns = netflix.columns.str.upper().str.strip().str.replace('_','-')
 print(netflix.columns)  # Display cleaned column names
 
-# Check data types
+# Check and Fix Data Types
 print(netflix.dtypes)
 
 netflix['release_year'] = netflix['release_year'].astype(str)
